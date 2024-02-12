@@ -4,8 +4,8 @@ The fx-cmix is a updated implementation of [fast-cmix](https://github.com/saurab
 Prize awarded on February 2, 2024. http://prize.hutter1.net/
 
 # Submission Description
-This submission contains fallowing modifications on top of the recent fast-cmix Hutter Prize winner:
-* paq8hp model is replaced with [fxcmv1](https://github.com/kaitz/fxcm) model with fallowing notable additions:
+This submission contains the following modifications on top of the recent fast-cmix Hutter Prize winner:
+* paq8hp model is replaced with [fxcmv1](https://github.com/kaitz/fxcm) model with the following notable additions:
   * Multiple state tables are used in predictors, this allows better predictability.
   * Most contexts are divided between 30 main predictors, this allows more efficient memory usage per context.
   * Added bracket, quote, first char, char in paragraph, column, table, template, word stream/paragraph context. These contexts are parsed depending on input, this includes parsing of wiki links, http links, tables, columns, paragraphs, quotes, brackets, list, templates.
